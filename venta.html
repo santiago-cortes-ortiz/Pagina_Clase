@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="css/grid.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet"  href="css/estilos.css">
+	<link rel="stylesheet" href="css/mobile.css">
+	<link rel="stylesheet" href="css/animation.css">
+	<title>Brand</title>
+</head>
+<body>
+	<nav class="fadeInDown">
+		<div class="brands_image">
+			<a href="index.html">
+				<img src="images/logo.png" alt="">
+			</a>
+		</div>
+		<div class="brands_options">
+			<ul>
+				<li><a href="#">Faqs</a></li>
+				<li><a href="#">Producto y descripcion</a></li>
+			</ul>
+		</div>
+	</nav>
+	<!-- Empiezan Formulario -->
+	<div class="container">
+		<div class="row">
+			<div class="col-4">
+				<div class="modulo_pago">
+					<div class="modulo_pago_images">
+						<img src="./images/box2.png">
+					</div>
+					<h3>Producto 1</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+			</div>
+			<div class="col-8">
+				<div class="modulo_pago">
+					<form action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2WLLWWXZQWYGS" method="post">
+						<label for="name">Nombre</label>
+						<br>
+						<input type="text" placeholder="" name="name" class="data">
+						<br>
+						<label for="email">Email</label>
+						<br>
+						<input type="text" placeholder="" name="email" class="data">
+						<br>
+						<label for="telefono">Telefono</label>
+						<br>
+						<input type="text" placeholder="" name="phone" class="data">
+						<input type="submit" name="submit" value="Confirmar pago" class="main_button botoncito">
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- Inicio de footer -->
+	<footer>
+		<div class="option">Terminos y condiciones</div>
+		<div class="option">contacto@brand.com</div>
+	</footer>
+	<!-- Fin de Footer -->
+
+	<!-- Script -->
+	<script src="scripts/script.js"></script>
+</body>
+</html>
